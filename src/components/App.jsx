@@ -22,7 +22,9 @@ const App = () => {
         break;
       case('bad'):
         setBad(bad+1);
-        break;      
+        break;   
+      default:
+        return;   
     }
   }
 
